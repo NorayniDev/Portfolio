@@ -202,7 +202,7 @@ h6 {
 
 .header .social-links a:hover {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: #0053ef;
 }
 
 @media (min-width: 1200px) {
@@ -315,12 +315,12 @@ h6 {
 .navmenu a:hover .navicon,
 .navmenu .active .navicon,
 .navmenu .active:focus .navicon {
-  color: var(--accent-color);
+  color: #0053ef;
 }
 
 .navmenu .active .toggle-dropdown,
 .navmenu .active:focus .toggle-dropdown {
-  background-color: var(--accent-color);
+  background-color: #0053ef;
   color: var(--contrast-color);
   transform: rotate(180deg);
 }
@@ -588,7 +588,7 @@ section,
 
 .hero p span {
   letter-spacing: 1px;
-  border-bottom: 2px solid var(--accent-color);
+  border-bottom: 2px solid #0053ef
 }
 
 .hero .social-links {
@@ -598,14 +598,14 @@ section,
 .hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  color: color-mix(in srgb, #0053ef, transparent 50%);
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
 }
 
 .hero .social-links a:hover {
-  color: var(--accent-color);
+  color: #0053ef;
 }
 
 @media (max-width: 768px) {
@@ -657,7 +657,7 @@ section,
 }
 
 .stats .stats-item i {
-  color: var(--accent-color);
+  color: #0053ef;
   display: block;
   font-size: 44px;
   float: left;
@@ -715,7 +715,7 @@ section,
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: var(--accent-color);
+  background-color: #0053ef;
 }
 
 /*--------------------------------------------------------------
@@ -732,7 +732,7 @@ section,
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid var(--accent-color);
+  border-left: 2px solid #0053ef;
   position: relative;
 }
 
@@ -773,8 +773,8 @@ section,
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: var(--background-color);
-  border: 2px solid var(--accent-color);
+  background: #0053ef;
+  border: 2px solid #0053ef;
 }
 
 /*--------------------------------------------------------------
@@ -802,7 +802,7 @@ section,
 
 .portfolio .portfolio-filters li:hover,
 .portfolio .portfolio-filters li.filter-active {
-  color: var(--accent-color);
+  color: #0053ef;
 }
 
 .portfolio .portfolio-filters li:first-child {
@@ -898,7 +898,7 @@ section,
 }
 
 .services .service-item .icon {
-  background: var(--accent-color);
+  background:#0053ef;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -921,7 +921,7 @@ section,
 }
 
 .services .service-item:hover .icon i {
-  color: var(--accent-color);
+  color: #0053ef;
 }
 
 .services .service-item .title {
@@ -935,7 +935,7 @@ section,
 }
 
 .services .service-item .title a:hover {
-  color: var(--accent-color);
+  color: #0053ef;
 }
 
 .services .service-item .description {
@@ -1061,7 +1061,7 @@ section,
 
 .contact .info-item i {
   font-size: 20px;
-  color: var(--accent-color);
+  color: #0053ef;
   background: color-mix(in srgb, var(--accent-color), transparent 92%);
   width: 44px;
   height: 44px;
@@ -1088,7 +1088,7 @@ section,
 
 .contact .info-item:hover i {
   background: var(--accent-color);
-  color: var(--contrast-color);
+  color: #0053ef;
 }
 
 .contact .php-email-form {
@@ -1119,7 +1119,7 @@ section,
 .contact .php-email-form input[type=text]:focus,
 .contact .php-email-form input[type=email]:focus,
 .contact .php-email-form textarea:focus {
-  border-color: var(--accent-color);
+  border-color: #0053ef;
 }
 
 .contact .php-email-form input[type=text]::placeholder,
@@ -1130,7 +1130,7 @@ section,
 
 .contact .php-email-form button[type=submit] {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: #0053ef;
   border: 0;
   padding: 10px 30px;
   transition: 0.4s;
